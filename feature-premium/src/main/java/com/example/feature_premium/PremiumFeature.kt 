@@ -1,0 +1,10 @@
+package com.example.bookbrowser.feature_premium
+
+/**
+ * Задание 7 - Маркерный класс Premium модуля.
+ * Реальный UI находится в FeatureScreen.kt (app модуль),
+ * который переключается по BuildConfig.IS_PREMIUM.
+ */
+object PremiumFeature {
+    const val NAME = "Premium Recommendations"
+}
